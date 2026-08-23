@@ -1,0 +1,29 @@
+{
+  "name": "easy-order-recommendation-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "server:enrichment": "tsx server/index.ts",
+    "test": "tsx src/test.ts",
+    "test:ai": "tsx server/evaluation/runAiEvaluation.ts --smoke",
+    "evaluate:ai": "tsx server/evaluation/runAiEvaluation.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/node": "^24.3.0",
+    "@vitejs/plugin-react": "^5.0.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}

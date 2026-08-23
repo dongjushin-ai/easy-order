@@ -1,0 +1,4 @@
+import { useEffect } from "react";
+import type { PaymentMethod, PaymentOutcome } from "../types/order";
+interface Props { method: PaymentMethod; outcome: PaymentOutcome; onResult: (outcome: PaymentOutcome) => void; }
+export function PaymentProcessingScreen({ method, outcome, onResult }: Props) { useEffect(() => { const timer = window.setTimeout(() => onResult(outcome), 2500); return () => window.clearTimeout(timer); }, [onResult, outcome]); return <main className="screen processing-screen" aria-live="assertive" aria-busy="true"><div className="payment-device" aria-hidden="true"><span /></div><p className="eyebrow">결제 중입니다</p><h1>{method === "card" ? "카드를 꽂거나 태그해 주세요" : "휴대폰을 결제기에 가까이 대주세요"}</h1><p>중복 결제를 막기 위해 다른 버튼은 잠시 사용할 수 없습니다.<br />결제가 끝날 때까지 기다려 주세요.</p><div className="loading-dots" aria-label="결제 처리 중"><i /><i /><i /></div></main>; }

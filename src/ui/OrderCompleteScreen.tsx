@@ -1,0 +1,3 @@
+import { useEffect } from "react";
+interface Props { orderNumber: number; onReset: () => void; }
+export function OrderCompleteScreen({ orderNumber, onReset }: Props) { useEffect(() => { const timer = window.setTimeout(onReset, 10000); return () => window.clearTimeout(timer); }, [onReset]); return <main className="screen complete-screen" onClick={onReset}><div className="complete-check" aria-hidden="true">✓</div><p className="eyebrow">주문 완료</p><h1>주문이 완료되었습니다</h1><p>번호가 불리면 메뉴를 받아 주세요.</p><div className="order-number"><span>주문번호</span><strong>{orderNumber}</strong></div><button className="checkout-primary" onClick={onReset}>처음 화면으로</button><small>10초 후 자동으로 처음 화면으로 돌아갑니다.</small></main>; }

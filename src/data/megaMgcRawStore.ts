@@ -1,0 +1,38 @@
+import type { RawStoreData } from "../types/store";
+
+export const megaMgcRawStore: RawStoreData = {
+  storeId: "mega-mgc-enrichment-demo",
+  storeName: "메가MGC 스타일 테스트 매장",
+  attributes: [
+    { key: "temperature", label: "온도", type: "category", options: [{ value: "hot", label: "따뜻함" }, { value: "cold", label: "차가움" }, { value: "both", label: "둘 다" }] },
+    { key: "coffee", label: "커피", type: "number" },
+    { key: "sweetness", label: "단맛", type: "number" },
+    { key: "milk", label: "우유", type: "number" },
+    { key: "caffeine", label: "카페인", type: "number" },
+    { key: "refreshing", label: "상쾌함", type: "number" },
+    { key: "creamy", label: "부드러움", type: "number" },
+    { key: "fruity", label: "과일 풍미", type: "number" },
+  ],
+  menus: [
+    { id: "americano", name: "아메리카노", price: 2000, category: "커피", options: ["HOT", "ICE"] },
+    { id: "honey-americano", name: "꿀아메리카노", price: 2700, category: "커피", description: "달콤한 꿀을 더한 아메리카노", options: ["HOT", "ICE"] },
+    { id: "vanilla-americano", name: "바닐라아메리카노", price: 2700, category: "커피", options: ["HOT", "ICE"] },
+    { id: "cafe-latte", name: "카페라떼", price: 2900, category: "커피", options: ["HOT", "ICE"] },
+    { id: "vanilla-latte", name: "바닐라라떼", price: 3400, category: "커피", description: "바닐라 시럽과 우유가 어우러진 부드러운 라떼", options: ["HOT", "ICE"] },
+    { id: "low-sugar-vanilla-latte", name: "저당 바닐라라떼", price: 3500, category: "커피", description: "일반 바닐라라떼보다 바닐라 시럽을 절반만 사용한 덜 단 메뉴", options: ["HOT", "ICE"] },
+    { id: "cafe-mocha", name: "카페모카", price: 3900, category: "커피", description: "초콜릿과 에스프레소, 우유의 조화", options: ["HOT", "ICE"] },
+    { id: "caramel-macchiato", name: "카라멜마끼아또", price: 3900, category: "커피", options: ["HOT", "ICE"] },
+    { id: "cold-brew", name: "콜드브루오리지널", price: 3500, category: "커피", options: ["ICE"] },
+    { id: "cold-brew-latte", name: "콜드브루라떼", price: 4000, category: "커피", options: ["ICE"] },
+    { id: "strawberry-latte", name: "딸기라떼", price: 3700, category: "논커피", description: "딸기 과육과 우유를 넣은 달콤한 음료", options: ["ICE"] },
+    { id: "green-tea-latte", name: "녹차라떼", price: 3500, category: "논커피", options: ["HOT", "ICE"] },
+    { id: "sweet-potato-latte", name: "고구마라떼", price: 3500, category: "논커피", description: "고구마와 우유로 만든 달고 부드러운 음료", options: ["HOT", "ICE"] },
+    { id: "peach-iced-tea", name: "복숭아 아이스티", price: 3000, category: "티", options: ["ICE"] },
+    { id: "lemonade", name: "레몬에이드", price: 3500, category: "에이드", description: "레몬의 상큼함을 살린 탄산 음료", options: ["ICE"] },
+    { id: "grapefruit-ade", name: "자몽에이드", price: 3500, category: "에이드", options: ["ICE"] },
+    { id: "strawberry-banana", name: "딸기바나나", price: 4000, category: "주스", options: ["ICE"] },
+    { id: "plain-yogurt-smoothie", name: "플레인요거트스무디", price: 3900, category: "스무디", options: ["ICE"] },
+    { id: "real-choco-frappe", name: "리얼초코프라페", price: 4200, category: "프라페", options: ["ICE"] },
+    { id: "signature-blend", name: "시그니처 블렌드", price: 4300 },
+  ],
+};

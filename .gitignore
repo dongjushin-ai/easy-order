@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+
+evaluation-results/latest.json
+evaluation-results/latest.md
+evaluation-results/debug-sanitized.json
