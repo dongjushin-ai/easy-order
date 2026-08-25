@@ -15,7 +15,7 @@ test("Demo Home, public sample, direct routes와 refresh", async ({ page }) => {
   expect(sample.ok()).toBeTruthy();
   expect(await sample.text()).toContain("아이스 아메리카노");
 
-  for (const [path, heading] of [["/kiosk", "무엇을 도와드릴까요?"], ["/owner", "메뉴 속성 검토"], ["/owner/new", "새 매장 만들기"]] as const) {
+  for (const [path, heading] of [["/kiosk", "무엇을 도와드릴까요?"], ["/owner", "메뉴 속성 검토"], ["/owner/new", "새 매장 만들기"], ["/business", "메뉴는 많아졌지만"]] as const) {
     await page.goto(path);
     await expect(page.getByRole("heading", { name: heading })).toBeVisible();
     await page.reload();

@@ -26,4 +26,8 @@ test("portfolio screenshots", async ({ page }) => {
   await page.screenshot({ path: `${directory}/04-owner-wizard.png`, fullPage: true });
   await createDemoCafeToReview(page);
   await page.screenshot({ path: `${directory}/05-owner-review.png`, fullPage: true });
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto("/business");
+  await expect(page.getByRole("heading", { name: /메뉴는 많아졌지만/ })).toBeVisible();
+  await page.screenshot({ path: `${directory}/07-business-page.png`, fullPage: true });
 });

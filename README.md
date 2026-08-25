@@ -1,5 +1,12 @@
 # EasyOrder
 
+## Live Demo
+
+- [Live Demo](https://easy-order-gamma.vercel.app/)
+- [For Business](https://easy-order-gamma.vercel.app/business)
+- [Customer Demo](https://easy-order-gamma.vercel.app/kiosk?store=cafe)
+- [Owner Demo](https://easy-order-gamma.vercel.app/owner/new?demo=1)
+
 복잡한 메뉴판을 직접 탐색하는 대신 몇 가지 쉬운 질문으로 원하는 메뉴를 찾는 접근성 중심 키오스크 MVP입니다. 한 번의 애매한 답이나 오답으로 메뉴를 제거하지 않으며, 카페·분식·패스트푸드가 같은 Store-agnostic 엔진을 사용합니다.
 
 ## Quick Start
