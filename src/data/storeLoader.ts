@@ -27,6 +27,12 @@ export function loadStoreData(raw: RawStoreData): StoreCatalog {
     definitionKeys.add(definition.key);
   }
 
+  for (const group of raw.orderOptionGroups ?? []) {
+    if (group.visibleWhen) {
+      const dependency = raw.orderOptionGroups?.find((item) => item.id === group.visibleWhen!.groupId);
+      if (!dependency?.choices.some((choice) => choice.id === group.visibleWhen!.choiceId)) throw new Error(`${group.id} has invalid visibleWhen condition`);
+    }
+  }
   const menuIds = new Set<string>();
   const menus: StoreMenu[] = raw.menus.map((menu) => {
     if (menuIds.has(menu.id)) throw new Error(`Duplicate menu id: ${menu.id}`);

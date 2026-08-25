@@ -1,0 +1,1722 @@
+{
+  "generatedAt": "2026-08-23T10:56:34.278Z",
+  "promptVersion": "attribute-enrichment-v1",
+  "results": [
+    {
+      "model": "gpt-5.6-luna",
+      "dataset": "smoke-5",
+      "inputMode": "description",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-luna",
+        "menuCount": 5,
+        "batchCount": 1,
+        "latencyMs": 10937,
+        "retryCount": 0,
+        "inputTokens": 827,
+        "outputTokens": 1206,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 35,
+        "rangeAccuracy": 0.9714,
+        "meanRangeError": 0.0043,
+        "midpointMae": 0.0743,
+        "menuProfileAccuracy": 0.8,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 9,
+            "reviewRecall": 0,
+            "unnecessaryReviewRate": 1,
+            "autoApprovalRate": 0.7429,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 11,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9091,
+            "autoApprovalRate": 0.6857,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 11,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9091,
+            "autoApprovalRate": 0.6857,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 11,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9091,
+            "autoApprovalRate": 0.6857,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 11,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9091,
+            "autoApprovalRate": 0.6857,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 9,
+            "accuracy": 1,
+            "meanConfidence": 0.2278
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 2,
+            "accuracy": 0.5,
+            "meanConfidence": 0.425
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 0,
+            "accuracy": 0,
+            "meanConfidence": 0
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 24,
+            "accuracy": 1,
+            "meanConfidence": 0.9583
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "americano",
+            "attribute": "refreshing",
+            "value": 0.3,
+            "confidence": 0.4,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.325
+          },
+          {
+            "menuId": "americano",
+            "attribute": "coffee",
+            "value": 1,
+            "confidence": 1,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.07499999999999996
+          },
+          {
+            "menuId": "americano",
+            "attribute": "sweetness",
+            "value": 0,
+            "confidence": 0.85,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.1
+          },
+          {
+            "menuId": "americano",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.95,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.05
+          },
+          {
+            "menuId": "americano",
+            "attribute": "caffeine",
+            "value": 1,
+            "confidence": 0.95,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.15000000000000002
+          },
+          {
+            "menuId": "americano",
+            "attribute": "creamy",
+            "value": 0,
+            "confidence": 0.9,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.075
+          },
+          {
+            "menuId": "americano",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.9,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.05
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "coffee",
+            "value": 0.8,
+            "confidence": 1,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.15000000000000002
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "sweetness",
+            "value": 0.8,
+            "confidence": 1,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.025000000000000022
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "milk",
+            "value": 1,
+            "confidence": 1,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.15000000000000002
+          }
+        ],
+        "highConfidenceErrors": []
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "dataset": "full-20",
+      "inputMode": "description",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-luna",
+        "menuCount": 20,
+        "batchCount": 1,
+        "latencyMs": 28212,
+        "retryCount": 0,
+        "inputTokens": 1420,
+        "outputTokens": 4678,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.9357,
+        "meanRangeError": 0.0111,
+        "midpointMae": 0.0724,
+        "menuProfileAccuracy": 0.55,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 7,
+            "reviewRecall": 0,
+            "unnecessaryReviewRate": 1,
+            "autoApprovalRate": 0.95,
+            "dangerousMisses": 1
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 7,
+            "reviewRecall": 0,
+            "unnecessaryReviewRate": 1,
+            "autoApprovalRate": 0.95,
+            "dangerousMisses": 1
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 11,
+            "reviewRecall": 0.2222,
+            "unnecessaryReviewRate": 0.8182,
+            "autoApprovalRate": 0.9214,
+            "dangerousMisses": 1
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 31,
+            "reviewRecall": 0.6667,
+            "unnecessaryReviewRate": 0.8065,
+            "autoApprovalRate": 0.7786,
+            "dangerousMisses": 1
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 45,
+            "reviewRecall": 0.7778,
+            "unnecessaryReviewRate": 0.8444,
+            "autoApprovalRate": 0.6786,
+            "dangerousMisses": 1
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 7,
+            "accuracy": 1,
+            "meanConfidence": 0.2
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 4,
+            "accuracy": 0.5,
+            "meanConfidence": 0.5375
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 34,
+            "accuracy": 0.8529,
+            "meanConfidence": 0.6676
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 95,
+            "accuracy": 0.9789,
+            "meanConfidence": 0.9118
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "americano",
+            "attribute": "sweetness",
+            "value": 1,
+            "confidence": 0.85,
+            "correct": false,
+            "rangeError": 0.8,
+            "midpointError": 0.9
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "refreshing",
+            "value": 0.5,
+            "confidence": 0.7,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "refreshing",
+            "value": 0.45,
+            "confidence": 0.6,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.22500000000000003
+          },
+          {
+            "menuId": "low-sugar-vanilla-latte",
+            "attribute": "refreshing",
+            "value": 0.45,
+            "confidence": 0.6,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.22500000000000003
+          },
+          {
+            "menuId": "caramel-macchiato",
+            "attribute": "refreshing",
+            "value": 0.4,
+            "confidence": 0.55,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.22500000000000003
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.8,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "strawberry-banana",
+            "attribute": "creamy",
+            "value": 0.25,
+            "confidence": 0.55,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.2749999999999999
+          },
+          {
+            "menuId": "cafe-latte",
+            "attribute": "refreshing",
+            "value": 0.5,
+            "confidence": 0.6,
+            "correct": false,
+            "rangeError": 0.04999999999999999,
+            "midpointError": 0.2
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "refreshing",
+            "value": 0.35,
+            "confidence": 0.65,
+            "correct": false,
+            "rangeError": 0.04999999999999999,
+            "midpointError": 0.175
+          },
+          {
+            "menuId": "americano",
+            "attribute": "coffee",
+            "value": 1,
+            "confidence": 0.98,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.07499999999999996
+          }
+        ],
+        "highConfidenceErrors": [
+          {
+            "menuId": "americano",
+            "attribute": "sweetness",
+            "value": 1,
+            "confidence": 0.85,
+            "correct": false,
+            "rangeError": 0.8,
+            "midpointError": 0.9
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.8,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "refreshing",
+            "value": 0.5,
+            "confidence": 0.7,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.275
+          }
+        ]
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "dataset": "full-20",
+      "inputMode": "name-only",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-luna",
+        "menuCount": 20,
+        "batchCount": 1,
+        "latencyMs": 27055,
+        "retryCount": 0,
+        "inputTokens": 1279,
+        "outputTokens": 4398,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.8929,
+        "meanRangeError": 0.0086,
+        "midpointMae": 0.09,
+        "menuProfileAccuracy": 0.55,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 7,
+            "reviewRecall": 0,
+            "unnecessaryReviewRate": 1,
+            "autoApprovalRate": 0.95,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 7,
+            "reviewRecall": 0,
+            "unnecessaryReviewRate": 1,
+            "autoApprovalRate": 0.95,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 16,
+            "reviewRecall": 0.3333,
+            "unnecessaryReviewRate": 0.6875,
+            "autoApprovalRate": 0.8857,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 22,
+            "reviewRecall": 0.3333,
+            "unnecessaryReviewRate": 0.7727,
+            "autoApprovalRate": 0.8429,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 30,
+            "reviewRecall": 0.4,
+            "unnecessaryReviewRate": 0.8,
+            "autoApprovalRate": 0.7857,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 7,
+            "accuracy": 1,
+            "meanConfidence": 0.2
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 9,
+            "accuracy": 0.4444,
+            "meanConfidence": 0.5
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 14,
+            "accuracy": 0.9286,
+            "meanConfidence": 0.6607
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 110,
+            "accuracy": 0.9182,
+            "meanConfidence": 0.9514
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.32500000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "refreshing",
+            "value": 0.4,
+            "confidence": 0.5,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.22500000000000003
+          },
+          {
+            "menuId": "caramel-macchiato",
+            "attribute": "refreshing",
+            "value": 0.4,
+            "confidence": 0.5,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.22500000000000003
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.7,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "low-sugar-vanilla-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "caramel-macchiato",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "cold-brew-latte",
+            "attribute": "caffeine",
+            "value": 1,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.2749999999999999
+          },
+          {
+            "menuId": "honey-americano",
+            "attribute": "sweetness",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.22499999999999998
+          }
+        ],
+        "highConfidenceErrors": [
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "coffee",
+            "value": 0.8,
+            "confidence": 1,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.32500000000000007
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "low-sugar-vanilla-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "caramel-macchiato",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "cold-brew-latte",
+            "attribute": "caffeine",
+            "value": 1,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.2749999999999999
+          },
+          {
+            "menuId": "honey-americano",
+            "attribute": "sweetness",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-latte",
+            "attribute": "caffeine",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.22499999999999998
+          },
+          {
+            "menuId": "strawberry-banana",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.8,
+            "correct": false,
+            "rangeError": 0.05,
+            "midpointError": 0.19999999999999998
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.7,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          }
+        ]
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "dataset": "full-20",
+      "inputMode": "description",
+      "contextMode": "single",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-luna",
+        "menuCount": 20,
+        "batchCount": 20,
+        "latencyMs": 63833,
+        "retryCount": 0,
+        "inputTokens": 13177,
+        "outputTokens": 5421,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.8929,
+        "meanRangeError": 0.0114,
+        "midpointMae": 0.0946,
+        "menuProfileAccuracy": 0.55,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 10,
+            "reviewRecall": 0.1333,
+            "unnecessaryReviewRate": 0.8,
+            "autoApprovalRate": 0.9286,
+            "dangerousMisses": 1
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 18,
+            "reviewRecall": 0.3333,
+            "unnecessaryReviewRate": 0.7222,
+            "autoApprovalRate": 0.8714,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 30,
+            "reviewRecall": 0.4667,
+            "unnecessaryReviewRate": 0.7667,
+            "autoApprovalRate": 0.7857,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 36,
+            "reviewRecall": 0.4667,
+            "unnecessaryReviewRate": 0.8056,
+            "autoApprovalRate": 0.7429,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 47,
+            "reviewRecall": 0.6,
+            "unnecessaryReviewRate": 0.8085,
+            "autoApprovalRate": 0.6643,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 10,
+            "accuracy": 0.8,
+            "meanConfidence": 0.265
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 20,
+            "accuracy": 0.75,
+            "meanConfidence": 0.49
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 17,
+            "accuracy": 0.8824,
+            "meanConfidence": 0.6929
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 93,
+            "accuracy": 0.9355,
+            "meanConfidence": 0.93
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "milk",
+            "value": 0.15,
+            "confidence": 0.45,
+            "correct": false,
+            "rangeError": 0.30000000000000004,
+            "midpointError": 0.475
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "milk",
+            "value": 0.3,
+            "confidence": 0.35,
+            "correct": false,
+            "rangeError": 0.25000000000000006,
+            "midpointError": 0.4250000000000001
+          },
+          {
+            "menuId": "low-sugar-vanilla-latte",
+            "attribute": "coffee",
+            "value": 1,
+            "confidence": 1,
+            "correct": false,
+            "rangeError": 0.19999999999999996,
+            "midpointError": 0.35
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "refreshing",
+            "value": 0.5,
+            "confidence": 0.45,
+            "correct": false,
+            "rangeError": 0.15000000000000002,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.75,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.2,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "strawberry-banana",
+            "attribute": "creamy",
+            "value": 0.25,
+            "confidence": 0.45,
+            "correct": false,
+            "rangeError": 0.09999999999999998,
+            "midpointError": 0.2749999999999999
+          },
+          {
+            "menuId": "honey-americano",
+            "attribute": "sweetness",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "coffee",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "caffeine",
+            "value": 0.8,
+            "confidence": 0.9,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.2250000000000001
+          }
+        ],
+        "highConfidenceErrors": [
+          {
+            "menuId": "low-sugar-vanilla-latte",
+            "attribute": "coffee",
+            "value": 1,
+            "confidence": 1,
+            "correct": false,
+            "rangeError": 0.19999999999999996,
+            "midpointError": 0.35
+          },
+          {
+            "menuId": "honey-americano",
+            "attribute": "sweetness",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "coffee",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "caffeine",
+            "value": 0.8,
+            "confidence": 0.9,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.2250000000000001
+          },
+          {
+            "menuId": "strawberry-banana",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.9,
+            "correct": false,
+            "rangeError": 0.05,
+            "midpointError": 0.19999999999999998
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "refreshing",
+            "value": 0.8,
+            "confidence": 0.8,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.75,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "cold-brew-latte",
+            "attribute": "refreshing",
+            "value": 0.7,
+            "confidence": 0.75,
+            "correct": false,
+            "rangeError": 0.04999999999999993,
+            "midpointError": 0.22499999999999998
+          }
+        ]
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "dataset": "smoke-5",
+      "inputMode": "description",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-terra",
+        "menuCount": 5,
+        "batchCount": 1,
+        "latencyMs": 6914,
+        "retryCount": 0,
+        "inputTokens": 827,
+        "outputTokens": 1164,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 35,
+        "rangeAccuracy": 0.9714,
+        "meanRangeError": 0.0029,
+        "midpointMae": 0.05,
+        "menuProfileAccuracy": 0.8,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 10,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9,
+            "autoApprovalRate": 0.7143,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 13,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9231,
+            "autoApprovalRate": 0.6286,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 14,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9286,
+            "autoApprovalRate": 0.6,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 15,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9333,
+            "autoApprovalRate": 0.5714,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 17,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9412,
+            "autoApprovalRate": 0.5143,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 10,
+            "accuracy": 0.9,
+            "meanConfidence": 0.175
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 4,
+            "accuracy": 1,
+            "meanConfidence": 0.475
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 3,
+            "accuracy": 1,
+            "meanConfidence": 0.7
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 18,
+            "accuracy": 1,
+            "meanConfidence": 0.8994
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "americano",
+            "attribute": "refreshing",
+            "value": 0.35,
+            "confidence": 0.35,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "americano",
+            "attribute": "coffee",
+            "value": 0.9,
+            "confidence": 0.88,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.025000000000000022
+          },
+          {
+            "menuId": "americano",
+            "attribute": "sweetness",
+            "value": 0.1,
+            "confidence": 0.45,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0
+          },
+          {
+            "menuId": "americano",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.8,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.05
+          },
+          {
+            "menuId": "americano",
+            "attribute": "caffeine",
+            "value": 0.8,
+            "confidence": 0.65,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.04999999999999993
+          },
+          {
+            "menuId": "americano",
+            "attribute": "creamy",
+            "value": 0.05,
+            "confidence": 0.45,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.024999999999999994
+          },
+          {
+            "menuId": "americano",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.7,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.05
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "coffee",
+            "value": 0.7,
+            "confidence": 0.75,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.04999999999999993
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "sweetness",
+            "value": 0.7,
+            "confidence": 0.9,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.07500000000000007
+          },
+          {
+            "menuId": "vanilla-latte",
+            "attribute": "milk",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.04999999999999993
+          }
+        ],
+        "highConfidenceErrors": []
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "dataset": "full-20",
+      "inputMode": "description",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-terra",
+        "menuCount": 20,
+        "batchCount": 1,
+        "latencyMs": 22934,
+        "retryCount": 0,
+        "inputTokens": 1420,
+        "outputTokens": 4463,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.9071,
+        "meanRangeError": 0.0096,
+        "midpointMae": 0.09,
+        "menuProfileAccuracy": 0.75,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 28,
+            "reviewRecall": 0.9231,
+            "unnecessaryReviewRate": 0.5714,
+            "autoApprovalRate": 0.8,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 45,
+            "reviewRecall": 0.9231,
+            "unnecessaryReviewRate": 0.7333,
+            "autoApprovalRate": 0.6786,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 57,
+            "reviewRecall": 0.9231,
+            "unnecessaryReviewRate": 0.7895,
+            "autoApprovalRate": 0.5929,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 77,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.8312,
+            "autoApprovalRate": 0.45,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 96,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.8646,
+            "autoApprovalRate": 0.3143,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 28,
+            "accuracy": 0.5714,
+            "meanConfidence": 0.2214
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 29,
+            "accuracy": 1,
+            "meanConfidence": 0.4845
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 39,
+            "accuracy": 0.9744,
+            "meanConfidence": 0.6756
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 44,
+            "accuracy": 1,
+            "meanConfidence": 0.8909
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "signature-blend",
+            "attribute": "coffee",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.2,
+            "midpointError": 0.5
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "sweetness",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.2,
+            "midpointError": 0.5
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "caffeine",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.15,
+            "midpointError": 0.47500000000000003
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "refreshing",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.15,
+            "midpointError": 0.47500000000000003
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.65,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "creamy",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "milk",
+            "value": 0.5,
+            "confidence": 0.35,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.2250000000000001
+          },
+          {
+            "menuId": "strawberry-banana",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.35,
+            "correct": false,
+            "rangeError": 0.05,
+            "midpointError": 0.19999999999999998
+          }
+        ],
+        "highConfidenceErrors": []
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "dataset": "full-20",
+      "inputMode": "name-only",
+      "contextMode": "batch",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-terra",
+        "menuCount": 20,
+        "batchCount": 1,
+        "latencyMs": 22346,
+        "retryCount": 0,
+        "inputTokens": 1279,
+        "outputTokens": 4451,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.9357,
+        "meanRangeError": 0.0082,
+        "midpointMae": 0.08,
+        "menuProfileAccuracy": 0.85,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 21,
+            "reviewRecall": 0.8889,
+            "unnecessaryReviewRate": 0.619,
+            "autoApprovalRate": 0.85,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 32,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.7188,
+            "autoApprovalRate": 0.7714,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 42,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.7857,
+            "autoApprovalRate": 0.7,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 50,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.82,
+            "autoApprovalRate": 0.6429,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 90,
+            "reviewRecall": 1,
+            "unnecessaryReviewRate": 0.9,
+            "autoApprovalRate": 0.3571,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 21,
+            "accuracy": 0.619,
+            "meanConfidence": 0.1976
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 21,
+            "accuracy": 0.9524,
+            "meanConfidence": 0.4762
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 48,
+            "accuracy": 1,
+            "meanConfidence": 0.7083
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 50,
+            "accuracy": 1,
+            "meanConfidence": 0.862
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "signature-blend",
+            "attribute": "coffee",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.2,
+            "midpointError": 0.5
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "sweetness",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.2,
+            "midpointError": 0.5
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "caffeine",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.15,
+            "midpointError": 0.47500000000000003
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "refreshing",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.15,
+            "midpointError": 0.47500000000000003
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "milk",
+            "value": 0.35,
+            "confidence": 0.3,
+            "correct": false,
+            "rangeError": 0.10000000000000003,
+            "midpointError": 0.275
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "creamy",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "signature-blend",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.45
+          },
+          {
+            "menuId": "americano",
+            "attribute": "refreshing",
+            "value": 0.4,
+            "confidence": 0.45,
+            "correct": false,
+            "rangeError": 0.04999999999999999,
+            "midpointError": 0.22499999999999998
+          },
+          {
+            "menuId": "americano",
+            "attribute": "coffee",
+            "value": 0.9,
+            "confidence": 0.95,
+            "correct": true,
+            "rangeError": 0,
+            "midpointError": 0.025000000000000022
+          }
+        ],
+        "highConfidenceErrors": []
+      }
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "dataset": "full-20",
+      "inputMode": "description",
+      "contextMode": "single",
+      "diagnostics": {
+        "provider": "openai-responses",
+        "model": "gpt-5.6-terra",
+        "menuCount": 20,
+        "batchCount": 20,
+        "latencyMs": 46576,
+        "retryCount": 0,
+        "inputTokens": 13177,
+        "outputTokens": 4909,
+        "fallbackMenuCount": 0,
+        "validationErrorCount": 0
+      },
+      "metrics": {
+        "evaluatedAttributes": 140,
+        "rangeAccuracy": 0.7643,
+        "meanRangeError": 0.0614,
+        "midpointMae": 0.1584,
+        "menuProfileAccuracy": 0.4,
+        "temperatureAccuracy": 1,
+        "thresholds": [
+          {
+            "threshold": 0.4,
+            "reviewCount": 38,
+            "reviewRecall": 0.6061,
+            "unnecessaryReviewRate": 0.4737,
+            "autoApprovalRate": 0.7286,
+            "dangerousMisses": 2
+          },
+          {
+            "threshold": 0.5,
+            "reviewCount": 53,
+            "reviewRecall": 0.7273,
+            "unnecessaryReviewRate": 0.5472,
+            "autoApprovalRate": 0.6214,
+            "dangerousMisses": 2
+          },
+          {
+            "threshold": 0.6,
+            "reviewCount": 64,
+            "reviewRecall": 0.8788,
+            "unnecessaryReviewRate": 0.5469,
+            "autoApprovalRate": 0.5429,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.7,
+            "reviewCount": 73,
+            "reviewRecall": 0.9091,
+            "unnecessaryReviewRate": 0.589,
+            "autoApprovalRate": 0.4786,
+            "dangerousMisses": 0
+          },
+          {
+            "threshold": 0.8,
+            "reviewCount": 87,
+            "reviewRecall": 0.9394,
+            "unnecessaryReviewRate": 0.6437,
+            "autoApprovalRate": 0.3786,
+            "dangerousMisses": 0
+          }
+        ],
+        "calibration": [
+          {
+            "bucket": "[0,0.4)",
+            "count": 38,
+            "accuracy": 0.4737,
+            "meanConfidence": 0.2547
+          },
+          {
+            "bucket": "[0.4,0.6)",
+            "count": 26,
+            "accuracy": 0.6538,
+            "meanConfidence": 0.4838
+          },
+          {
+            "bucket": "[0.6,0.8)",
+            "count": 23,
+            "accuracy": 0.913,
+            "meanConfidence": 0.6843
+          },
+          {
+            "bucket": "[0.8,1)",
+            "count": 53,
+            "accuracy": 0.9623,
+            "meanConfidence": 0.8934
+          }
+        ],
+        "largestErrors": [
+          {
+            "menuId": "peach-iced-tea",
+            "attribute": "refreshing",
+            "value": 0,
+            "confidence": 0.3,
+            "correct": false,
+            "rangeError": 0.7,
+            "midpointError": 0.85
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "creamy",
+            "value": 0,
+            "confidence": 0.55,
+            "correct": false,
+            "rangeError": 0.7,
+            "midpointError": 0.85
+          },
+          {
+            "menuId": "green-tea-latte",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.2,
+            "correct": false,
+            "rangeError": 0.65,
+            "midpointError": 0.825
+          },
+          {
+            "menuId": "green-tea-latte",
+            "attribute": "creamy",
+            "value": 0,
+            "confidence": 0.3,
+            "correct": false,
+            "rangeError": 0.65,
+            "midpointError": 0.8
+          },
+          {
+            "menuId": "peach-iced-tea",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.55,
+            "correct": false,
+            "rangeError": 0.65,
+            "midpointError": 0.825
+          },
+          {
+            "menuId": "peach-iced-tea",
+            "attribute": "sweetness",
+            "value": 0,
+            "confidence": 0.25,
+            "correct": false,
+            "rangeError": 0.55,
+            "midpointError": 0.7250000000000001
+          },
+          {
+            "menuId": "real-choco-frappe",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.3,
+            "correct": false,
+            "rangeError": 0.55,
+            "midpointError": 0.7250000000000001
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "sweetness",
+            "value": 0,
+            "confidence": 0.2,
+            "correct": false,
+            "rangeError": 0.5,
+            "midpointError": 0.65
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "milk",
+            "value": 0,
+            "confidence": 0.3,
+            "correct": false,
+            "rangeError": 0.45,
+            "midpointError": 0.625
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "refreshing",
+            "value": 0,
+            "confidence": 0.35,
+            "correct": false,
+            "rangeError": 0.45,
+            "midpointError": 0.6
+          }
+        ],
+        "highConfidenceErrors": [
+          {
+            "menuId": "cafe-mocha",
+            "attribute": "coffee",
+            "value": 0.8,
+            "confidence": 0.95,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.20000000000000007
+          },
+          {
+            "menuId": "plain-yogurt-smoothie",
+            "attribute": "fruity",
+            "value": 0,
+            "confidence": 0.85,
+            "correct": false,
+            "rangeError": 0.1,
+            "midpointError": 0.25
+          },
+          {
+            "menuId": "cold-brew-latte",
+            "attribute": "milk",
+            "value": 0.6,
+            "confidence": 0.7,
+            "correct": false,
+            "rangeError": 0.050000000000000044,
+            "midpointError": 0.22499999999999998
+          }
+        ]
+      }
+    }
+  ]
+}

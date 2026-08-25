@@ -167,3 +167,4 @@ button:focus-visible, select:focus-visible { outline: 4px solid #ef7f55; outline
 }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+.global-demo-badge{position:fixed;z-index:20;right:10px;bottom:10px;padding:5px 8px;border-radius:7px;background:#17352b;color:#fff;font-size:.72rem;font-weight:900;opacity:.82;pointer-events:none}.route-loading{display:grid;min-height:100vh;place-items:center;font-size:1.25rem;font-weight:800}

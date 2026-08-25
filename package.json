@@ -11,16 +11,26 @@
     "test": "tsx src/test.ts",
     "test:ai": "tsx server/evaluation/runAiEvaluation.ts --smoke",
     "evaluate:ai": "tsx server/evaluation/runAiEvaluation.ts",
-    "typecheck": "tsc --noEmit"
+    "evaluation:rebuild-report": "tsx server/evaluation/rebuildReport.ts",
+    "evaluation:stress": "tsx server/evaluation/runStressTest.ts",
+    "evaluation:risk-policy": "tsx server/evaluation/generateRiskPolicyReport.ts",
+    "evaluation:optimize-policy": "tsx server/evaluation/optimizeRiskPolicy.ts",
+    "typecheck": "tsc --noEmit",
+    "audit:bundle": "tsx scripts/auditBundle.ts",
+    "test:e2e": "playwright test tests/e2e",
+    "test:e2e:remote": "playwright test tests/remote",
+    "test:e2e:ui": "playwright test tests/e2e --ui",
+    "screenshots": "playwright test tests/screenshots/portfolio.spec.ts"
   },
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^24.3.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
-    "@types/node": "^24.3.0",
     "@vitejs/plugin-react": "^5.0.2",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",

@@ -1,5 +1,7 @@
 import { megaMgcRawStore } from "./megaMgcRawStore";
 import type { RawStoreData } from "../types/store";
+import { koreanSnackRawStore } from "../evaluation/koreanSnackDataset";
+import { fastFoodRawStore } from "../evaluation/fastFoodDataset";
 
 const snackReviewStore: RawStoreData = {
   storeId: "snack-review-demo",
@@ -18,4 +20,4 @@ const snackReviewStore: RawStoreData = {
   ],
 };
 
-export const ownerDemoStores = [megaMgcRawStore, snackReviewStore];
+export const ownerDemoStores = [megaMgcRawStore, koreanSnackRawStore, fastFoodRawStore];

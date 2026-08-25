@@ -4,7 +4,12 @@
 
 node_modules/
 dist/
+playwright-report/
+test-results/
+blob-report/
 
 evaluation-results/latest.json
 evaluation-results/latest.md
 evaluation-results/debug-sanitized.json
+evaluation-results/*-attempt.json
+evaluation-results/*-attempt.md

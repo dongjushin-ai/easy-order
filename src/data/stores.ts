@@ -1,5 +1,7 @@
 import { loadStoreData } from "./storeLoader";
 import type { RawStoreData } from "../types/store";
+import { koreanSnackFinalStore } from "../evaluation/koreanSnackDataset";
+import { fastFoodRawStore } from "../evaluation/fastFoodDataset";
 
 const cafe: RawStoreData = {
   storeId: "cafe",
@@ -61,4 +63,4 @@ const snack: RawStoreData = {
   ],
 };
 
-export const stores = [loadStoreData(cafe), loadStoreData(snack)];
+export const stores = [loadStoreData(cafe), loadStoreData(koreanSnackFinalStore), loadStoreData(fastFoodRawStore)];

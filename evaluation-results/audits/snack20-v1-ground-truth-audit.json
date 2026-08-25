@@ -1,0 +1,748 @@
+{
+  "datasetVersion": "snack20-v1",
+  "conflicts": [
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "tteokbokki",
+      "attribute": "broth",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0,
+      "terra": 0.5,
+      "lunaConfidence": 0.85,
+      "terraConfidence": 0.45,
+      "description": "달콤하고 매콤한 소스와 쫄깃한 떡",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "spicy-tteokbokki",
+      "attribute": "broth",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0,
+      "terra": 0.5,
+      "lunaConfidence": 0.85,
+      "terraConfidence": 0.45,
+      "description": "강한 매운맛의 쫄깃한 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "spicy-tteokbokki",
+      "attribute": "sweetness",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.35,
+      "terraConfidence": 0.3,
+      "description": "강한 매운맛의 쫄깃한 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "rose-tteokbokki",
+      "attribute": "spiciness",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.4,
+      "terraConfidence": 0.35,
+      "description": "부드러운 로제 소스의 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "rose-tteokbokki",
+      "attribute": "broth",
+      "range": [
+        0.33,
+        0.57
+      ],
+      "luna": 0,
+      "terra": 0.5,
+      "lunaConfidence": 0.85,
+      "terraConfidence": 0.45,
+      "description": "부드러운 로제 소스의 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "rose-tteokbokki",
+      "attribute": "hearty",
+      "range": [
+        0.68,
+        0.92
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.55,
+      "terraConfidence": 0.65,
+      "description": "부드러운 로제 소스의 떡볶이",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "rose-tteokbokki",
+      "attribute": "sweetness",
+      "range": [
+        0.43,
+        0.67
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.35,
+      "terraConfidence": 0.3,
+      "description": "부드러운 로제 소스의 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "rose-tteokbokki",
+      "attribute": "cheesy",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.45,
+      "terraConfidence": 0.3,
+      "description": "부드러운 로제 소스의 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "cheese-tteokbokki",
+      "attribute": "broth",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0,
+      "terra": 0.5,
+      "lunaConfidence": 0.85,
+      "terraConfidence": 0.45,
+      "description": "치즈를 듬뿍 올린 매콤한 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "cheese-tteokbokki",
+      "attribute": "hearty",
+      "range": [
+        0.73,
+        0.97
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.55,
+      "terraConfidence": 0.65,
+      "description": "치즈를 듬뿍 올린 매콤한 떡볶이",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "cheese-tteokbokki",
+      "attribute": "sweetness",
+      "range": [
+        0.43,
+        0.67
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.35,
+      "terraConfidence": 0.3,
+      "description": "치즈를 듬뿍 올린 매콤한 떡볶이",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "rabokki",
+      "attribute": "sweetness",
+      "range": [
+        0.38,
+        0.62
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.35,
+      "terraConfidence": 0.3,
+      "description": "떡과 라면을 함께 즐기는 매콤한 메뉴",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "gimbap",
+      "attribute": "hearty",
+      "range": [
+        0.63,
+        0.87
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.7,
+      "terraConfidence": 0.6,
+      "description": "채소와 밥을 넣어 말아낸 기본 김밥",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "cheese-gimbap",
+      "attribute": "hearty",
+      "range": [
+        0.73,
+        0.97
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.65,
+      "terraConfidence": 0.6,
+      "description": "고소한 치즈가 들어간 김밥",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "cheese-gimbap",
+      "attribute": "sweetness",
+      "range": [
+        0.13,
+        0.37
+      ],
+      "luna": 0,
+      "terra": 0,
+      "lunaConfidence": 0.5,
+      "terraConfidence": 0.35,
+      "description": "고소한 치즈가 들어간 김밥",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "sundae",
+      "attribute": "hearty",
+      "range": [
+        0.63,
+        0.87
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.6,
+      "terraConfidence": 0.6,
+      "description": "부드럽고 쫄깃한 찹쌀 순대",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "vegetable-fried",
+      "attribute": "sweetness",
+      "range": [
+        0.13,
+        0.37
+      ],
+      "luna": 0,
+      "terra": 0,
+      "lunaConfidence": 0.5,
+      "terraConfidence": 0.35,
+      "description": "채소를 큼직하게 넣은 바삭한 튀김",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "jjolmyeon",
+      "attribute": "hearty",
+      "range": [
+        0.63,
+        0.87
+      ],
+      "luna": 0.5,
+      "terra": 0.5,
+      "lunaConfidence": 0.65,
+      "terraConfidence": 0.65,
+      "description": "매콤한 양념과 매우 쫄깃한 면",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    },
+    {
+      "type": "MODEL_DISAGREEMENT",
+      "menu": "jjolmyeon",
+      "attribute": "sweetness",
+      "range": [
+        0.28,
+        0.52
+      ],
+      "luna": 0.5,
+      "terra": 0,
+      "lunaConfidence": 0.35,
+      "terraConfidence": 0.35,
+      "description": "매콤한 양념과 매우 쫄깃한 면",
+      "disagreement": 0.5,
+      "action": "KEEP"
+    },
+    {
+      "type": "MODEL_CONSENSUS_GROUND_TRUTH_CONFLICT",
+      "menu": "fried-dumplings",
+      "attribute": "sweetness",
+      "range": [
+        0.23,
+        0.47
+      ],
+      "luna": 0,
+      "terra": 0,
+      "lunaConfidence": 0.45,
+      "terraConfidence": 0.35,
+      "description": "바삭한 만두와 매콤한 채소무침",
+      "disagreement": 0,
+      "action": "ATTRIBUTE_DEFINITION_REVIEW"
+    }
+  ],
+  "descriptionQuality": [
+    {
+      "menuId": "tteokbokki",
+      "grade": "GOOD",
+      "covered": [
+        "spiciness",
+        "sweetness",
+        "chewy"
+      ]
+    },
+    {
+      "menuId": "spicy-tteokbokki",
+      "grade": "PARTIAL",
+      "covered": [
+        "spiciness",
+        "chewy"
+      ]
+    },
+    {
+      "menuId": "rose-tteokbokki",
+      "grade": "PARTIAL",
+      "covered": [
+        "cheesy"
+      ]
+    },
+    {
+      "menuId": "cheese-tteokbokki",
+      "grade": "PARTIAL",
+      "covered": [
+        "spiciness",
+        "cheesy"
+      ]
+    },
+    {
+      "menuId": "rabokki",
+      "grade": "PARTIAL",
+      "covered": [
+        "spiciness"
+      ]
+    },
+    {
+      "menuId": "gimbap",
+      "grade": "POOR",
+      "covered": []
+    },
+    {
+      "menuId": "tuna-gimbap",
+      "grade": "PARTIAL",
+      "covered": [
+        "hearty"
+      ]
+    },
+    {
+      "menuId": "cheese-gimbap",
+      "grade": "PARTIAL",
+      "covered": [
+        "cheesy"
+      ]
+    },
+    {
+      "menuId": "sundae",
+      "grade": "PARTIAL",
+      "covered": [
+        "chewy"
+      ]
+    },
+    {
+      "menuId": "fried-set",
+      "grade": "PARTIAL",
+      "covered": [
+        "fried",
+        "crispy"
+      ]
+    },
+    {
+      "menuId": "gimmari",
+      "grade": "PARTIAL",
+      "covered": [
+        "fried",
+        "crispy"
+      ]
+    },
+    {
+      "menuId": "squid-fried",
+      "grade": "PARTIAL",
+      "covered": [
+        "fried",
+        "crispy"
+      ]
+    },
+    {
+      "menuId": "vegetable-fried",
+      "grade": "PARTIAL",
+      "covered": [
+        "fried",
+        "crispy"
+      ]
+    },
+    {
+      "menuId": "fishcake",
+      "grade": "PARTIAL",
+      "covered": [
+        "broth"
+      ]
+    },
+    {
+      "menuId": "fishcake-soup",
+      "grade": "PARTIAL",
+      "covered": [
+        "broth",
+        "hearty"
+      ]
+    },
+    {
+      "menuId": "ramyeon",
+      "grade": "GOOD",
+      "covered": [
+        "spiciness",
+        "broth",
+        "hearty"
+      ]
+    },
+    {
+      "menuId": "udon",
+      "grade": "PARTIAL",
+      "covered": [
+        "broth"
+      ]
+    },
+    {
+      "menuId": "jjolmyeon",
+      "grade": "PARTIAL",
+      "covered": [
+        "spiciness",
+        "chewy"
+      ]
+    },
+    {
+      "menuId": "fried-dumplings",
+      "grade": "PARTIAL",
+      "covered": [
+        "spiciness",
+        "crispy"
+      ]
+    },
+    {
+      "menuId": "rice-ball",
+      "grade": "POOR",
+      "covered": []
+    }
+  ],
+  "regressions": [
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "tteokbokki",
+      "attribute": "spiciness",
+      "nameOnly": 0.5,
+      "description": 0.75,
+      "range": [
+        0.48,
+        0.72
+      ],
+      "cause": "GROUND_TRUTH_TOO_NARROW",
+      "descriptionText": "달콤하고 매콤한 소스와 쫄깃한 떡"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "tteokbokki",
+      "attribute": "sweetness",
+      "nameOnly": 0.5,
+      "description": 0.75,
+      "range": [
+        0.48,
+        0.72
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "달콤하고 매콤한 소스와 쫄깃한 떡"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "rose-tteokbokki",
+      "attribute": "broth",
+      "nameOnly": 0.5,
+      "description": 0,
+      "range": [
+        0.33,
+        0.57
+      ],
+      "cause": "DESCRIPTION_CAUSED_CONFUSION",
+      "descriptionText": "부드러운 로제 소스의 떡볶이"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "cheese-tteokbokki",
+      "attribute": "spiciness",
+      "nameOnly": 0.5,
+      "description": 0.75,
+      "range": [
+        0.38,
+        0.62
+      ],
+      "cause": "DESCRIPTION_CAUSED_CONFUSION",
+      "descriptionText": "치즈를 듬뿍 올린 매콤한 떡볶이"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "rabokki",
+      "attribute": "broth",
+      "nameOnly": 0.5,
+      "description": 0.25,
+      "range": [
+        0.43,
+        0.67
+      ],
+      "cause": "DESCRIPTION_CAUSED_CONFUSION",
+      "descriptionText": "떡과 라면을 함께 즐기는 매콤한 메뉴"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "rabokki",
+      "attribute": "hearty",
+      "nameOnly": 1,
+      "description": 0.75,
+      "range": [
+        0.83,
+        1
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "떡과 라면을 함께 즐기는 매콤한 메뉴"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "gimbap",
+      "attribute": "hearty",
+      "nameOnly": 0.75,
+      "description": 0.5,
+      "range": [
+        0.63,
+        0.87
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "채소와 밥을 넣어 말아낸 기본 김밥"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "cheese-gimbap",
+      "attribute": "hearty",
+      "nameOnly": 0.75,
+      "description": 0.5,
+      "range": [
+        0.73,
+        0.97
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "고소한 치즈가 들어간 김밥"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "cheese-gimbap",
+      "attribute": "cheesy",
+      "nameOnly": 1,
+      "description": 0.75,
+      "range": [
+        0.78,
+        1
+      ],
+      "cause": "GROUND_TRUTH_TOO_NARROW",
+      "descriptionText": "고소한 치즈가 들어간 김밥"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "sundae",
+      "attribute": "hearty",
+      "nameOnly": 0.75,
+      "description": 0.5,
+      "range": [
+        0.63,
+        0.87
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "부드럽고 쫄깃한 찹쌀 순대"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "fishcake",
+      "attribute": "sweetness",
+      "nameOnly": 0.25,
+      "description": 0,
+      "range": [
+        0.08,
+        0.32
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "따뜻한 어묵 국물과 함께 먹는 꼬치 어묵"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "fishcake-soup",
+      "attribute": "sweetness",
+      "nameOnly": 0.25,
+      "description": 0,
+      "range": [
+        0.08,
+        0.32
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "여러 어묵이 들어간 따뜻하고 넉넉한 국물"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "udon",
+      "attribute": "sweetness",
+      "nameOnly": 0.25,
+      "description": 0,
+      "range": [
+        0.03,
+        0.27
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "순하고 따뜻한 국물의 굵은 면"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "fried-dumplings",
+      "attribute": "spiciness",
+      "nameOnly": 0.5,
+      "description": 0.75,
+      "range": [
+        0.43,
+        0.67
+      ],
+      "cause": "GROUND_TRUTH_TOO_NARROW",
+      "descriptionText": "바삭한 만두와 매콤한 채소무침"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "menu": "fried-dumplings",
+      "attribute": "crispy",
+      "nameOnly": 0.75,
+      "description": 1,
+      "range": [
+        0.73,
+        0.97
+      ],
+      "cause": "GROUND_TRUTH_TOO_NARROW",
+      "descriptionText": "바삭한 만두와 매콤한 채소무침"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "menu": "rose-tteokbokki",
+      "attribute": "sweetness",
+      "nameOnly": 0.5,
+      "description": 0,
+      "range": [
+        0.43,
+        0.67
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "부드러운 로제 소스의 떡볶이"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "menu": "cheese-tteokbokki",
+      "attribute": "sweetness",
+      "nameOnly": 0.5,
+      "description": 0,
+      "range": [
+        0.43,
+        0.67
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "치즈를 듬뿍 올린 매콤한 떡볶이"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "menu": "rabokki",
+      "attribute": "sweetness",
+      "nameOnly": 0.5,
+      "description": 0,
+      "range": [
+        0.38,
+        0.62
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "떡과 라면을 함께 즐기는 매콤한 메뉴"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "menu": "cheese-gimbap",
+      "attribute": "cheesy",
+      "nameOnly": 1,
+      "description": 0.5,
+      "range": [
+        0.78,
+        1
+      ],
+      "cause": "DESCRIPTION_CAUSED_CONFUSION",
+      "descriptionText": "고소한 치즈가 들어간 김밥"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "menu": "jjolmyeon",
+      "attribute": "sweetness",
+      "nameOnly": 0.5,
+      "description": 0,
+      "range": [
+        0.28,
+        0.52
+      ],
+      "cause": "ATTRIBUTE_AMBIGUOUS",
+      "descriptionText": "매콤한 양념과 매우 쫄깃한 면"
+    }
+  ],
+  "riskPolicy": {
+    "fried": 0.6,
+    "broth": 0.9,
+    "cheesy": 0.8,
+    "spiciness": 0.85,
+    "crispy": 0.85,
+    "hearty": null,
+    "sweetness": null,
+    "chewy": null
+  }
+}

@@ -1,0 +1,4 @@
+import type { OrderOptionGroup, SelectedOrderOption } from "../types/order";
+export function isOptionGroupVisible(group:OrderOptionGroup,selections:Record<string,string>){return !group.visibleWhen||selections[group.visibleWhen.groupId]===group.visibleWhen.choiceId;}
+export function selectedOrderOptions(groups:OrderOptionGroup[],selections:Record<string,string>):SelectedOrderOption[]{return groups.filter(g=>isOptionGroupVisible(g,selections)).flatMap(group=>{const choice=group.choices.find(x=>x.id===selections[group.id]);return choice?[{groupId:group.id,choiceId:choice.id,label:`${group.label}: ${choice.label}`,priceDelta:choice.priceDelta}]:[];});}
+export function calculateConfiguredUnitPrice(basePrice:number,options:SelectedOrderOption[]){return basePrice+options.reduce((sum,x)=>sum+x.priceDelta,0);}

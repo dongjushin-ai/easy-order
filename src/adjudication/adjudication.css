@@ -1,0 +1,191 @@
+.adj-shell {
+  max-width: 1100px;
+  margin: auto;
+  padding: 28px;
+  color: #182f27;
+}
+.adj-shell header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.adj-shell h1 {
+  font-size: 2rem;
+}
+.adj-shell header p {
+  color: #b94f2c;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+.adj-shell button,
+.adj-shell select,
+.adj-shell textarea,
+.adj-shell label {
+  font: inherit;
+}
+.adj-shell button {
+  min-height: 48px;
+  padding: 10px 16px;
+  border: 2px solid #18382d;
+  border-radius: 10px;
+  background: #fff;
+  font-weight: 700;
+}
+.adj-shell nav {
+  display: flex;
+  gap: 8px;
+}
+.adj-progress {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 25px 0;
+}
+.adj-progress button {
+  display: flex;
+  justify-content: space-between;
+}
+.adj-progress .active,
+.selected {
+  background: #ffd77d !important;
+}
+.rating-card,
+.final-panel article,
+.summary {
+  padding: 26px;
+  border: 2px solid #c7d0ca;
+  border-radius: 18px;
+  background: #fff;
+  margin-bottom: 16px;
+}
+.rating-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.rating-head select {
+  max-width: 70%;
+  min-height: 48px;
+}
+.blind-badge {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #e4f2eb;
+  color: #17603f;
+  font-weight: 800;
+}
+.description {
+  font-size: 1.1rem;
+  color: #52635b;
+}
+.anchors {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+.anchors button span {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.78rem;
+}
+.range-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 18px 0;
+  font-weight: 800;
+}
+.range-row select {
+  min-height: 48px;
+}
+.rating-card fieldset {
+  border: 0;
+  padding: 0;
+  margin: 18px 0;
+}
+.rating-card fieldset button {
+  margin-right: 8px;
+}
+.rating-card > label:not(.range-row) {
+  display: grid;
+  gap: 8px;
+  font-weight: 800;
+}
+.rating-card textarea {
+  min-height: 90px;
+  padding: 10px;
+}
+.primary {
+  width: 100%;
+  margin-top: 18px;
+  background: #d75d36 !important;
+  color: #fff;
+}
+.data-tools,
+.decision-buttons,
+.artifact-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.data-tools label {
+  display: inline-flex !important;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #18382d;
+  border-radius: 10px;
+}
+.data-tools input {
+  max-width: 190px;
+}
+.danger {
+  color: #8a271c;
+  border-color: #8a271c !important;
+}
+.final-panel article.low {
+  border-color: #b83228;
+  background: #fff5f3;
+}
+.final-panel details {
+  margin: 12px 0;
+  padding: 10px;
+  background: #f3f1e9;
+}
+.final-panel pre {
+  max-height: 220px;
+  overflow: auto;
+}
+.artifact-tools {
+  position: sticky;
+  bottom: 10px;
+  padding: 14px;
+  background: #18382d;
+  border-radius: 12px;
+}
+.artifact-tools button:disabled {
+  opacity: 0.5;
+}
+@media (max-width: 700px) {
+  .adj-shell header {
+    display: block;
+  }
+  .adj-progress,
+  .anchors {
+    grid-template-columns: 1fr;
+  }
+  .rating-head {
+    display: block;
+  }
+  .rating-head select {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.queue-filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0; padding: 16px; border: 2px solid #c7d0ca; border-radius: 14px; background: #fff; }
+.queue-filters select { min-height: 48px; padding: 0 10px; }
+.queue-filters label { display: flex; align-items: center; gap: 8px; }
+.stress-metadata { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; padding: 12px; border-radius: 10px; background: #f3f1e9; }
+.stress-metadata span, .stress-metadata strong, .stress-metadata em { padding: 5px 8px; border-radius: 7px; background: #fff; font-style: normal; }

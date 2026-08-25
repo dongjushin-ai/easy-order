@@ -6,6 +6,9 @@ export interface MenuGroundTruth {
   temperature: readonly string[];
 }
 
+export const MEGA_MGC_DATASET_VERSION = "mega20-v1";
+export const MEGA_MGC_CORE_ATTRIBUTES = ["coffee", "sweetness", "milk", "caffeine", "refreshing", "creamy", "fruity"] as const;
+
 const n = (coffee: ExpectedRange, sweetness: ExpectedRange, milk: ExpectedRange, caffeine: ExpectedRange, refreshing: ExpectedRange, creamy: ExpectedRange, fruity: ExpectedRange) => ({ coffee, sweetness, milk, caffeine, refreshing, creamy, fruity });
 
 export const megaMgcGroundTruth: MenuGroundTruth[] = [

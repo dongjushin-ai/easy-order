@@ -1,0 +1,6041 @@
+{
+  "generatedAt": "2026-08-23T12:58:59.176Z",
+  "dataset": {
+    "id": "mega-mgc-20",
+    "version": "mega20-v1",
+    "menuCount": 20,
+    "attributeCount": 7
+  },
+  "source": {
+    "baseline": "C:\\easy-order\\evaluation-results\\baselines\\mega20-2026-08-23-v1.json",
+    "baselineGeneratedAt": "2026-08-23T10:56:34.278Z",
+    "apiRequests": 0
+  },
+  "config": {
+    "weights": {
+      "predictionConsistency": 0.25,
+      "modelAgreement": 0.2,
+      "inputRobustness": 0.2,
+      "gtAgreement": 0.2,
+      "attributeReliability": 0.15
+    },
+    "highModelAgreement": 0.15,
+    "mediumModelAgreement": 0.3,
+    "maxStableSpread": 0.25,
+    "minimumGtHitRate": 0.67,
+    "stableScoreThreshold": 0.72,
+    "questionableScoreThreshold": 0.48,
+    "consensusConflictMaxHitRate": 0.34,
+    "descriptionSensitivity": 0.3,
+    "inputSensitivity": 0.4
+  },
+  "summary": {
+    "total": 140,
+    "classification": {
+      "stable": 0,
+      "questionable": 0,
+      "unresolved": 140
+    },
+    "stableCoverage": 0,
+    "modelMetrics": [],
+    "attributes": {
+      "coffee": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "sweetness": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "milk": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "caffeine": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "refreshing": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "creamy": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      },
+      "fruity": {
+        "tier": "B",
+        "stable": 0,
+        "questionable": 0,
+        "unresolved": 20,
+        "coverage": 0,
+        "stableAccuracy": 0,
+        "automationSuitability": "NOT_READY"
+      }
+    },
+    "tradeoff": [
+      {
+        "threshold": 0.5,
+        "coverage": 0,
+        "gtHitRate": 0
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0,
+        "gtHitRate": 0
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0,
+        "gtHitRate": 0
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0,
+        "gtHitRate": 0
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0,
+        "gtHitRate": 0
+      }
+    ],
+    "consensusGtConflicts": [],
+    "modelDisagreements": [],
+    "inputSensitive": [],
+    "descriptionSensitive": [],
+    "humanReviewQueue": [
+      {
+        "menuId": "americano",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "americano",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "honey-americano",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-americano",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "vanilla-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "low-sugar-vanilla-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cafe-mocha",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "caramel-macchiato",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "cold-brew-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "green-tea-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "sweet-potato-latte",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "peach-iced-tea",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "lemonade",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "grapefruit-ade",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "strawberry-banana",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "plain-yogurt-smoothie",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "real-choco-frappe",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "coffee",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "sweetness",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "milk",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "caffeine",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "refreshing",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "creamy",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      },
+      {
+        "menuId": "signature-blend",
+        "attributeId": "fruity",
+        "status": "UNRESOLVED",
+        "reasons": [
+          "INSUFFICIENT_EVIDENCE"
+        ]
+      }
+    ],
+    "config": {
+      "weights": {
+        "predictionConsistency": 0.25,
+        "modelAgreement": 0.2,
+        "inputRobustness": 0.2,
+        "gtAgreement": 0.2,
+        "attributeReliability": 0.15
+      },
+      "highModelAgreement": 0.15,
+      "mediumModelAgreement": 0.3,
+      "maxStableSpread": 0.25,
+      "minimumGtHitRate": 0.67,
+      "stableScoreThreshold": 0.72,
+      "questionableScoreThreshold": 0.48,
+      "consensusConflictMaxHitRate": 0.34,
+      "descriptionSensitivity": 0.3,
+      "inputSensitivity": 0.4
+    },
+    "limitation": "Provisionally Stable / Automatically Stress-tested / Pending Human Validation"
+  },
+  "records": [
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.85,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.85,
+      "meanGtDistance": 0.85,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "americano",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.35,
+        "max": 0.7
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.35,
+      "meanGtDistance": 0.35,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "honey-americano",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.3,
+        "max": 0.65
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.3,
+      "meanGtDistance": 0.3,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-americano",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.85
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.85
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.45
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "vanilla-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.3,
+        "max": 0.6
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.3,
+      "meanGtDistance": 0.3,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "low-sugar-vanilla-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.4,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.4,
+      "meanGtDistance": 0.4,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.05,
+        "max": 0.3
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.05,
+      "meanGtDistance": 0.05,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cafe-mocha",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.05,
+        "max": 0.3
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.05,
+      "meanGtDistance": 0.05,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "caramel-macchiato",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.85,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.85,
+      "meanGtDistance": 0.85,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.6,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.6,
+      "meanGtDistance": 0.6,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.3,
+        "max": 0.65
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.3,
+      "meanGtDistance": 0.3,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "cold-brew-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.35,
+        "max": 0.7
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.35,
+      "meanGtDistance": 0.35,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.4,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.4,
+      "meanGtDistance": 0.4,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.45
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.45
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "green-tea-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.6,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.6,
+      "meanGtDistance": 0.6,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.05,
+        "max": 0.3
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.05,
+      "meanGtDistance": 0.05,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "sweet-potato-latte",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.5
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "peach-iced-tea",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.05
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.8,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.8,
+      "meanGtDistance": 0.8,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "lemonade",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.4,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.4,
+      "meanGtDistance": 0.4,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.05
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.8,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.8,
+      "meanGtDistance": 0.8,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "grapefruit-ade",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.65,
+        "max": 0.95
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.65,
+      "meanGtDistance": 0.65,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.05,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.05,
+      "meanGtDistance": 0.05,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.05
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.85
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.35,
+        "max": 0.7
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.35,
+      "meanGtDistance": 0.35,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "strawberry-banana",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.8,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.8,
+      "meanGtDistance": 0.8,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.5,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.5,
+      "meanGtDistance": 0.5,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.05
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.45,
+        "max": 0.75
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.45,
+      "meanGtDistance": 0.45,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.7,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.7,
+      "meanGtDistance": 0.7,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "plain-yogurt-smoothie",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.4
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.55,
+        "max": 0.9
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.55,
+      "meanGtDistance": 0.55,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.2
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.35
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.75,
+        "max": 1
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.75,
+      "meanGtDistance": 0.75,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "real-choco-frappe",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0,
+        "max": 0.15
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0,
+      "meanGtDistance": 0,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "coffee",
+      "groundTruthRange": {
+        "min": 0.2,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.2,
+      "meanGtDistance": 0.2,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "sweetness",
+      "groundTruthRange": {
+        "min": 0.2,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.2,
+      "meanGtDistance": 0.2,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "milk",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "caffeine",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "refreshing",
+      "groundTruthRange": {
+        "min": 0.15,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.15,
+      "meanGtDistance": 0.15,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "creamy",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    {
+      "datasetId": "mega-mgc-20",
+      "datasetVersion": "mega20-v1",
+      "menuId": "signature-blend",
+      "attributeId": "fruity",
+      "groundTruthRange": {
+        "min": 0.1,
+        "max": 0.8
+      },
+      "attributeTier": "B",
+      "attributeReliability": 0.7,
+      "predictions": [],
+      "consensus": {
+        "mean": 0,
+        "median": 0,
+        "min": 0,
+        "max": 0,
+        "standardDeviation": 0,
+        "spread": 0
+      },
+      "modelCenters": {},
+      "modelDifference": 1,
+      "modelAgreement": "LOW",
+      "inputRobustness": 0,
+      "gtHitRate": 0,
+      "medianGtDistance": 0.1,
+      "meanGtDistance": 0.1,
+      "averageRangeDistance": 0,
+      "stabilityScore": 0.355,
+      "status": "UNRESOLVED",
+      "reasons": [
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    }
+  ]
+}
